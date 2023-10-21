@@ -13,12 +13,14 @@
     </style>
 
     <div style="width: 50%;">
-        <h1 style="display: flex; justify-content: center; font-family: 'Sometype Mono', monospace;">Gráfico de linha</h1>
+        <h1 style="display: flex; justify-content: center; font-family: 'Sometype Mono', monospace;">Gráfico de linha
+        </h1>
         <canvas id="graficoLinha"></canvas>
     </div>
 
     <div style="width: 50%;">
-        <h1 style="display: flex; justify-content: center; font-family: 'Sometype Mono', monospace;">Gráfico de barra</h1>
+        <h1 style="display: flex; justify-content: center; font-family: 'Sometype Mono', monospace;">Gráfico de barra
+        </h1>
         <canvas id="graficoBarra"></canvas>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -64,7 +66,7 @@
     const labels2 = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho'];
 
     const data2 = {
-        labels: labels,
+        labels: labels2,
         datasets: [{
             label: 'Temperatura',
             backgroundColor: 'rgb(210, 0, 0)',
@@ -82,7 +84,7 @@
 
     const config2 = {
         type: 'bar',
-        data: data,
+        data: data2,
         options: {}
     };
 </script>
